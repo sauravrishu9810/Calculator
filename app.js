@@ -21,20 +21,16 @@ arr.forEach(button=>{                                    // for each loop are sp
             input.value = string;
 
         }
-
+            
         else{
             string +=e.target.innerHTML;
-            input.value = string;  // whatever will be stored in the string would be passed to input // 
-
+            input.value = string;  // whatever will be stored in the string would be passed to input //
         }
-
-
-
-      
     });
 });
 
 // for each loop doesnt work on buttons so we use array here                                                  
+
 
 
 
